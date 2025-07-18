@@ -5,7 +5,7 @@ export default function Header(){
         <>
         <header>
              <div className="picture-holder">
-                <img  className="myPic" src="../Image/mypic.JPG"></img>
+                <img  className="myPic" src="/Image/mypic.JPG"></img>
             </div>
             <h2 className="name">Yongting Shi</h2>
             <p className="title">Frontend Developer</p>
@@ -14,7 +14,7 @@ export default function Header(){
             <br></br>
             <a className="btn light-btn"href="mailto:Yongtingshi657@gmail.com">
                 <img className="button-pic"
-                    src="./Image/email.webp"
+                    src="/Image/email.webp"
                     alt="Email icon"
                     />
                 Email
@@ -22,7 +22,7 @@ export default function Header(){
                 
             <a className="btn dark-btn"href="https://www.linkedin.com/in/yongting-shi-668347203">
                 <img className="button-pic"
-                src="./Image/linkedIn.png"
+                src="/Image/linkedIn.png"
                 alt="LinkedIn icon"
                 />
             
